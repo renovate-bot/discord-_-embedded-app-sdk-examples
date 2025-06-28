@@ -53,8 +53,8 @@ importers:
   discord-activity-starter/packages/server:
     dependencies:
       dotenv:
-        specifier: ^16.0.1
-        version: 16.4.5
+        specifier: ^17.0.0
+        version: 17.0.0
       nodemon:
         specifier: ^3.1.0
         version: 3.1.7
@@ -69,8 +69,8 @@ importers:
         specifier: ^2.0.0
         version: 2.0.0
       dotenv:
-        specifier: ^16.0.3
-        version: 16.4.5
+        specifier: ^17.0.0
+        version: 17.0.0
       esbuild:
         specifier: ^0.25.0
         version: 0.25.0
@@ -1499,8 +1499,8 @@ packages:
     resolution: {integrity: sha512-LNxCeExaNbczqMVfQUyLdd+r+smG7ixIa+doeyiJ7nTmL8aZRrJhHkEYBEYVGvYv7k2DOEBh2eKthoCmWpfICg==}
     engines: {node: '>=0.8.0'}
 
-  dotenv@16.4.5:
-    resolution: {integrity: sha512-ZmdL2rui+eB2YwhsWzjInR8LldtZHGDoQ1ugH85ppHKwpUHL7j7rN0Ti9NCnGiQbhaZ11FpR+7ao1dNsmduNUg==}
+  dotenv@17.0.0:
+    resolution: {integrity: sha512-A0BJ5lrpJVSfnMMXjmeO0xUnoxqsBHWCoqqTnGwGYVdnctqXXUEhJOO7LxmgxJon9tEZFGpe0xPRX0h2v3AANQ==}
     engines: {node: '>=12'}
 
   eastasianwidth@0.2.0:
@@ -3723,7 +3723,7 @@ snapshots:
     dependencies:
       urijs: 1.19.11
 
-  dotenv@16.4.5: {}
+  dotenv@17.0.0: {}
 
   eastasianwidth@0.2.0: {}
 
