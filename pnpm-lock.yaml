@@ -81,8 +81,8 @@ importers:
         specifier: ^4.19.2
         version: 4.21.1
       uuid:
-        specifier: ^11.0.0
-        version: 11.0.2
+        specifier: ^13.0.0
+        version: 13.0.0
     devDependencies:
       glob:
         specifier: ^11.0.0
@@ -2561,6 +2561,10 @@ packages:
     resolution: {integrity: sha512-14FfcOJmqdjbBPdDjFQyk/SdT4NySW4eM0zcG+HqbHP5jzuH56xO3J1DGhgs/cEMCfwYi3HQI1gnTO62iaG+tQ==}
     hasBin: true
 
+  uuid@13.0.0:
+    resolution: {integrity: sha512-XQegIaBTVUjSHliKqcnFqYypAd4S+WCYt5NIeRs6w/UAry7z8Y9j5ZwRRL4kzq9U3sD6v+85er9FvkEaBpji2w==}
+    hasBin: true
+
   uvu@0.5.6:
     resolution: {integrity: sha512-+g8ENReyr8YsOc6fv/NVJs2vFdHBnBNdfE49rshrTzDWOlUx4Gq7KOS2GD8eqhy2j+Ejq29+SbKH8yjkAqXqoA==}
     engines: {node: '>=8'}
@@ -4828,6 +4832,8 @@ snapshots:
   uuid@10.0.0: {}
 
   uuid@11.0.2: {}
+
+  uuid@13.0.0: {}
 
   uvu@0.5.6:
     dependencies:
